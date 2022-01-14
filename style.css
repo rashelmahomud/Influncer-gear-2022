@@ -237,4 +237,152 @@ span.more-btn a {
         footer section ends here 
     =========== ==================--> */
 
+
+
+
+    /* responsiv css started here  */
+
+
+ @media only screen and (max-width:668px) {
+
+    #container{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    .gellery-box {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .more-items-btn {
+        text-align: center;
+    }
+
+    .media {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        line-height: 48px;
+    }
     
+    .media img {
+        width: 73px;
+    }
+
+    .state-influncer {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    
+    .influncer-left-img {
+        text-align: center;
+    }
+    
+    .influncer-right {
+        margin-left: 10px;
+    }
+
+
+  
+ }
+
+
+
+
+
+@media only screen and (min-width:668px) and (max-width:992px) {
+
+    #container{
+        width: 100%;
+    }
+    .gellery-box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .more-items-btn {
+        text-align: center;
+    }
+
+    .media img {
+        width: 100px;
+    }
+
+
+    .state-influncer {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    
+    .influncer-left-img {
+        text-align: center;
+    }
+    
+    .influncer-right {
+        margin-left: 10px;
+    }
+
+
+
+
+
+
+
+
+
+    .nav-menu {
+        margin-top: 46px;
+        position: absolute;
+    }
+    
+    
+    ul.nav-items {
+        flex-direction: column;
+        background: red;
+        line-height: 60px;
+        width: 100%;
+    }
+
+    .nav-social {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+ .singel-box img {
+    width: 100%;
+}
