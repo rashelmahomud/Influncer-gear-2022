@@ -1,0 +1,72 @@
+/* Google fonts here  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.navber {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 0px;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+ul.nav-items {
+    display: flex;
+    padding: 5px;
+}
+
+ul.nav-items li a {text-decoration: none;}
+
+ul.nav-items li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.nav-social {
+    margin-left: 30px;
+    padding: 5px 0px;
+}
+
+.nav-social a {
+    margin-right: 25px;
+}
+
+.nav-title {
+    font-size: 23px;
+    color: #362f2f;
+}
+
+ul.nav-items a {
+    color: #222020;
+    font-size: 21px;
+}
+
+/* ===================
+menu bar ends here 
+====================== */
+
+
+
+
+
+
