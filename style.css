@@ -96,6 +96,10 @@ menu bar ends here
     padding: 56px 0px;
 }
 
+button.influncer-btn:hover {
+    transform: skewX(30deg);
+    transition: 0.5s;
+}
 
 
 button.influncer-btn {
