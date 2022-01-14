@@ -45,10 +45,12 @@ ul.nav-items li {
 .nav-social {
     margin-left: 30px;
     padding: 5px 0px;
+    margin-top: 3px;
 }
 
 .nav-social a {
     margin-right: 25px;
+    color: #424242;
 }
 
 .nav-title {
@@ -61,12 +63,78 @@ ul.nav-items a {
     font-size: 21px;
 }
 
+
 /* ===================
 menu bar ends here 
 ====================== */
 
 
 
+/*===============
+ influncer section stareted here 
+============ */
+
+
+.state-influncer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 70px;
+}
+
+.influncer-right h1 {
+    font-size: 44px;
+    color: #464040;
+    margin-bottom: 15px;
+}
+
+.influncer-right p {
+    margin-bottom: 10px;
+    color: #525252;
+}
+
+.influncer-right {
+    padding: 56px 0px;
+}
+
+
+
+button.influncer-btn {
+    padding: 10px 20px;
+    background: #E02C6D;
+    border: navajowhite;
+    border-radius: 32px;
+}
+
+button.influncer-btn a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+}
+
+i.fas.fa-arrow-right {
+    margin-left: 10px;
+}
+
+
+.influncer-left-img {
+    width: 500px;
+    text-align: right;
+    border-radius: 100%;
+}
+
+.influncer-left-img img {
+    width: 399px;
+    border: 1px solid #e3e3e3;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+
+
+/*===============
+ influncer section ends here 
+============ */
 
 
 
