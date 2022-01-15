@@ -328,6 +328,13 @@ button.camra-btn a {
 
 
 
+.nav-icone {
+    display: none;
+}
+
+
+
+
 /* <!--============================
         footer section ends here 
     =========== ==================--> */
@@ -399,11 +406,12 @@ button.camra-btn a {
     .influncer-left-img img {
         width: 280px;
     }
+    .nav-menu{
+        display: none;
+    }
 
   
  }
-
-
 
 
 
@@ -447,30 +455,14 @@ button.camra-btn a {
         width: 100%;
     }
 
-
-
-
-
-
-    .nav-menu {
-        margin-top: 46px;
-        position: absolute;
-    }
-    
-    
-    ul.nav-items {
-        flex-direction: column;
-        background: red;
-        line-height: 60px;
-        width: 100%;
-    }
-
-    .nav-social {
+  
+    .nav-menu{
         display: none;
     }
 
-
 }
+
+
 
 
 
