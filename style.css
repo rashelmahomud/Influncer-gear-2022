@@ -205,6 +205,92 @@ span.more-btn a {
     =========== ==================--> */
 
 
+ /* sectinon dslr here started  */
+
+ .carmra-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 80px;
+}
+
+.camara-info {
+    padding: 63px 0px;
+}
+
+.camara-info h1 {
+    font-size: 37px;
+    color: #262222;
+    margin-bottom: 25px;
+}
+
+.camara-info p {
+    color: #3c3535;
+    margin-bottom: 15px;
+}
+
+button.camra-btn {
+    border: navajowhite;
+    background: #e02c6d;
+    padding: 15px 20px;
+    border-radius: 15px;
+}
+
+button.camra-btn a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.carmra-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 80px;
+}
+
+.camara-info {
+    padding: 63px 0px;
+}
+
+.camara-info h1 {
+    font-size: 37px;
+    color: #262222;
+    margin-bottom: 25px;
+}
+
+.camara-info p {
+    color: #3c3535;
+    margin-bottom: 15px;
+}
+
+button.camra-btn {
+    border: navajowhite;
+    background: #e02c6d;
+    padding: 15px 20px;
+    border-radius: 15px;
+}
+
+button.camra-btn a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.camra-box img {
+    border: 7px solid #d51c94;
+    border-radius: 50px;
+}
+
+.camra-box {
+    padding: 23px;
+}
+
+
+
+
+
+
+
 
 /* <!--============================
         footer section start here 
@@ -234,6 +320,11 @@ span.more-btn a {
 .footer-icon {
     margin-top: 14px;
 }
+
+.singel-box img {
+    width: 100%;
+}
+
 
 
 
@@ -289,6 +380,26 @@ span.more-btn a {
     }
 
 
+    .carmra-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        width: 100%;
+    }
+
+    .camara-info {
+        margin: 0px 30px;
+    }
+
+
+    .influncer-right {
+        margin: 0px 30px;
+    }
+
+    .influncer-left-img img {
+        width: 280px;
+    }
+
   
  }
 
@@ -329,7 +440,12 @@ span.more-btn a {
     }
 
 
-
+    .carmra-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        width: 100%;
+    }
 
 
 
@@ -354,27 +470,6 @@ span.more-btn a {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 
@@ -385,8 +480,3 @@ span.more-btn a {
 
 
 
-
-
- .singel-box img {
-    width: 100%;
-}
